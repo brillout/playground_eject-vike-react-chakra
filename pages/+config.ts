@@ -1,5 +1,4 @@
 import vikeReact from "vike-react/config";
-import vikeReactChakra from 'vike-react-chakra/config'
 import type { Config } from "vike/types";
 import Layout from "../layouts/LayoutDefault.js";
 
@@ -14,5 +13,5 @@ export default {
   title: "My Vike App",
   description: "Demo showcasing Vike",
 
-  extends: [vikeReact, vikeReactChakra]
+  extends: [vikeReact]
 } satisfies Config;
