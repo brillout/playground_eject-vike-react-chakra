@@ -1,5 +1,6 @@
 import React from "react";
 import { Counter } from "./Counter.js";
+import { HStack, Button } from '@chakra-ui/react'
 
 export default function Page() {
   return (
@@ -12,6 +13,13 @@ export default function Page() {
           Interactive. <Counter />
         </li>
       </ul>
+      <div>
+        Chakra component:
+        <HStack>
+          <Button>Click me</Button>
+          <Button>Click me</Button>
+        </HStack>
+      </div>
     </>
   );
 }

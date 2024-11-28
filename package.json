@@ -5,17 +5,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.2.1",
+    "@emotion/react": "^11.13.5",
     "@vitejs/plugin-react": "^4.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vike-react": "^0.5.8"
+    "vike-react": "^0.5.8",
+    "vike-react-chakra": "^1.0.0"
   },
   "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "typescript": "^5.7.2",
     "vike": "^0.4.204",
-    "vite": "^5.4.11",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1"
+    "vite": "^5.4.11"
   },
   "type": "module"
 }
