@@ -26,9 +26,6 @@ importers:
       vike-react:
         specifier: ^0.5.8
         version: 0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11))
-      vike-react-chakra:
-        specifier: ^1.0.0
-        version: 1.0.0(@chakra-ui/react@3.2.1(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)(vike-react@0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11)))
     devDependencies:
       '@types/react':
         specifier: ^18.3.12
@@ -1224,14 +1221,6 @@ packages:
 
   uqr@0.1.2:
     resolution: {integrity: sha512-MJu7ypHq6QasgF5YRTjqscSzQp/W11zoUk6kvmlH+fmWEs63Y0Eib13hYFwAzagRJcVY8WVnlV+eBDUGMJ5IbA==}
-
-  vike-react-chakra@1.0.0:
-    resolution: {integrity: sha512-arxIyhys23Stsgunazn5REarvyUyYwajy/3+IolAaK0eNsjyDDMAUkij9vaBLGBmRP6mgrNCpPx4U56Sp8w+/w==}
-    peerDependencies:
-      '@chakra-ui/react': '>=3'
-      '@emotion/react': '>=11'
-      react: '>=18'
-      vike-react: '>=0.4.13'
 
   vike-react@0.5.8:
     resolution: {integrity: sha512-qZlpB7WTYmc0O6Y3YCGdoDdUDdhr7nt77Y3y7Zj/PLSKrAcr3W7EBFeVVY+hBLbMS9Z9631fD8jUz88kgaYhpA==}
@@ -2709,13 +2698,6 @@ snapshots:
       picocolors: 1.1.1
 
   uqr@0.1.2: {}
-
-  vike-react-chakra@1.0.0(@chakra-ui/react@3.2.1(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)(vike-react@0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11))):
-    dependencies:
-      '@chakra-ui/react': 3.2.1(@emotion/react@11.13.5(@types/react@18.3.12)(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@emotion/react': 11.13.5(@types/react@18.3.12)(react@18.3.1)
-      react: 18.3.1
-      vike-react: 0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11))
 
   vike-react@0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11)):
     dependencies:
